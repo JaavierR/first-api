@@ -34,7 +34,7 @@ use App\Http\Controllers\PostController;
 
 // Now the short-hand to do it:
 
-Route::resource('posts', PostController::class);
+Route::apiResource('posts', PostController::class);
 
 // to create a resource (posts) in laravel
 //  1. create the database and migrations
